@@ -151,3 +151,121 @@ yang kemudian di ubah menjadi contoh gambar dibawah!
 **penjelasan**
 
 agar terlihat lebih ke dalam dan rapih.
+
+## 6). MENGGABUNGKAN SELL DATA
+
+## CODE DAN HASIL NYA
+![menggabungkan_sell_data](img/menggabungkan_selldata.png)
+
+**penjelasan**
+
+untuk menggabungkan sell data gunakan **rowspan** dan tentukan value untuk perubahan nya.
+
+```html
+<table border="1" cellpadding="8" cellspadding="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Tekni Industri</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+```
+## 7). MEMBUAT FORM HTML
+
+### CONTOH HASIL DAN CODE
+
+![form](img/form.png)
+
+**penjelasan**
+
+dalam membuat form perintah html code nya adalah form yang kemudian di ikuti input sesuai kebutuhan dalam client pembuatan.
+
+**code**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" id="alamat" cols="20" rows="3"></textarea>
+            </p>
+            <p>
+                <label for="jenis kelamin">Jenis Kelamin</label>
+                <input type="radio" name="jk_l" id="jk_l" value="L">
+                <label for="jk_l">Laki-Laki</label>
+                <input type="radio" name="kelamin" id="jk_p">
+                <label for="jk_P">Perempuan</label>
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
+```
+
+## 8). MEMBUAT STYLE INTERNAL CSS
+
+### CODE DAN HASIL NYA
+![css_internal](img/menambahkan_style_css_internal.png)
+
+disini saya sedikit menambahkan file internal css
+
+**code**
+```css
+<style>
+        form p > label {
+        display: inline-block;
+        width: 100px;
+        }
+        form input[type="text"], form textarea {
+        border: 1px solid #e21212;
+        }
+        form input[type="submit"] {
+        border: 1px solid #1fff80;
+        background-color: #197a43;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+        }
+        </style>
+```
+
+##  PERTANYAAN DAN TUGAS!
+
+## 1). BUATLAH FORM  YANG MENAMPILKAN **DROPDOWN** MENU DAN ***LISTBOX MULTIPLE SELECTION***
