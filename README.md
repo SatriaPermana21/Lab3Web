@@ -269,3 +269,58 @@ disini saya sedikit menambahkan file internal css
 ##  PERTANYAAN DAN TUGAS!
 
 ## 1). BUATLAH FORM  YANG MENAMPILKAN **DROPDOWN** MENU DAN ***LISTBOX MULTIPLE SELECTION***
+
+
+## DROPDOWN
+**Dropdown** adalah sebuah fungsi yang memerintahkan untuk memilih dengan tag **select** ketika diklik terdapat **option** pilihan,contoh gambar dibawah adalah **dropdown**
+
+![dropdown](img/Dropdown.png)
+
+gambar di atas adalah contoh dari **Dropdown**
+
+**contoh code**
+```html
+<p>
+            <!-- DROPDOWN MENU -->
+            <h2>Dropdown</h2>
+            <label>Pilih</label>
+            <select name="Pilih" id="Pilih">
+                <option value="Pilih Manufacture">-->Pilih Manufacture--</option>
+                <option value="Ford">Ford</option>
+                <option value="Honda">Honda</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+        </p>
+```
+
+**Listbox Multiplec Selection**
+
+**Listbox Multiple Selection** adalah **Select** yang lebih dari satu pilihan arti nya bisa memilih lebih dari satu pilihan.
+
+**contoh hasil dan code**
+![listbox-multiple-selection](img/listbox_multiple_selection.png)
+
+contoh gambar di atas adalah contoh dari listbox multiple selection.
+**contoh code**
+
+```html
+<p>
+            <!-- DROPDOWN MENU -->
+            <h2>Listbox Multiple Selection</h2>
+            <label>Pilih</label>
+            <select name="Pilih" id="Pilih" multiple size="6">
+                <option value="Pilih Manufacture">-->Pilih Manufacture--</option>
+                <option value="Ford">Ford</option>
+                <option value="Honda">Honda</option>
+                <option value="Suzuki">Suzuki</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+        </p>
+```
+
+## TERIMA KASIH
+## SEMOGA HARI MU MENYENANGKAN
+## DEVI SILMA YUNIAR
