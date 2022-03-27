@@ -1,4 +1,4 @@
-| Devi Silma Yuniar     |   TI.20.A.2       |
+| Muhammad Safria Satria Permana |   TI.20.A.2       |
 |--------------------   | ----------------- |
 | PEMROGRAMAN WEB       |   PERTEMUAN 4     |
 
