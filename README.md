@@ -321,6 +321,3 @@ contoh gambar di atas adalah contoh dari listbox multiple selection.
         </p>
 ```
 
-## TERIMA KASIH
-## SEMOGA HARI MU MENYENANGKAN
-## DEVI SILMA YUNIAR
